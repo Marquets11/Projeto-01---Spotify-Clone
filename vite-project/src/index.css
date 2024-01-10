@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-bar-button {
+    @apply flex gap-3 text-stone-400 font-semibold items-end flex-wrap hover:text-white;
+  }
+
+  .drop-down-options {
+    @apply flex flex-wrap gap-2 justify-start items-center px-2 py-1 rounded-sm hover:bg-stone-100 hover:bg-opacity-20 hover:cursor-pointer;
+  }
+}
